@@ -1,5 +1,6 @@
+// temporary users array
 const users = [];
-
+// user signup routing
 const signup = (req, res) => {
     const { name, email, password } = req.body;
     if (!name || !email || !password) {
